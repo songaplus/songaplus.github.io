@@ -1,0 +1,26 @@
+body {
+  color: beige;
+  font-size: x-large;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+span {
+  color: beige;
+  font-size:large;
+}
+.hidden{
+  display: none;
+}
+.background{
+  background-image: url("bg/bg01.PNG");
+}
+ul{
+  list-style: none;
+  font-size: large;
+}
+.js-clock{
+  margin: 0 auto;
+}

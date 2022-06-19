@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vanilla Challenge</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+  </head>
+
+  <body class="background">
+    <!--
+    <h1>Random Number Game</h1>
+    <h3>
+      Generate a number between 0 and
+      <input type="number" id="inputMaxNum" min="1" />
+    </h3>
+    <form class="guess-form">
+      <span> Guess the number: </span>
+      <input type="number" id="guessNum" />
+      <button>Play!</button>
+    </form>
+    <div id="resultGame" class="displayNone">
+      you chose: <span id="guessNum"></span>, the machine chose:
+      <span id="machineValue"></span>.
+    </div>
+    -->
+    <div style="margin:20 0 0 20">
+    </div>
+    <h1 class="hidden" id="greeting"></h1>
+    <h2 class="js-clockYYMMDD">000d 00h 00m 00s</h2>
+    <h1 class="js-clock">000d 00h 00m 00s</h1>
+    <form class="hidden" id="login-form">
+      <input type="text" placeholder="Write your Nickname" />
+    </form>
+    <form id="todo-form">
+      <input type="text" placeholder="Write Todo List" />
+      <span id="todo-id"></span>
+    </form>
+    <ul id="todo-list"></ul>
+
+    <div id="weather">
+      <span></span>
+      <span></span>
+    </div>
+    <!--<script async src="src/index.js"></script>-->
+    <script defer src="background.js"></script>
+    <script defer src="loginTodo.js"></script>
+    <script defer src="weather.js"></script>
+    <script defer src="clock.js"></script>
+  </body>
+</html>
